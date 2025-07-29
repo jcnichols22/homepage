@@ -87,6 +87,22 @@
             type: jellyfin
             url: "{{HOMEPAGE_VAR_JELLYFIN_URL}}"
             key: "{{HOMEPAGE_VAR_JELLYFIN_API_TOKEN}}"
+    - Jellyseerr:
+        icon: jellyseerr.svg
+        href: "{{HOMEPAGE_VAR_JELLYSEERR_URL}}"
+        description: media requests
+        widget:
+            type: jellyseerr
+            url: "{{HOMEPAGE_VAR_JELLYSEERR_URL}}"
+            key: "{{HOMEPAGE_VAR_JELLYSEERR_API_KEY}}"
+    - Automated Ripping Machine:
+        icon: arm.svg
+        href: "{{HOMEPAGE_VAR_ARM_URL}}"
+        description: media ripping
+        widget:
+            type: arm
+            url: "{{HOMEPAGE_VAR_ARM_URL}}"
+            key: "{{HOMEPAGE_VAR_ARM_API_KEY}}"
 
 - Arr:
     - Radarr:
