@@ -56,7 +56,7 @@
             url: "{{HOMEPAGE_VAR_OMADA_NETWORK_URL}}"
             username:  "{{HOMEPAGE_VAR_OMADA_NETWORK_USERNAME}}"
             password:  "{{HOMEPAGE_VAR_OMADA_NETWORK_PASSWORD}}"
-            site: sitename
+            site: The Hogs Head
             
     - Uptime Kuma:
         icon: uptime-kuma.svg
