@@ -32,16 +32,7 @@
         widget:
             type: portainer
             url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
-            env: 2
-            key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
-    - Portainer:
-        icon: portainer.svg
-        href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
-        description: docker
-        widget:
-            type: portainer
-            url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
-            env: 2
+            env: 1
             key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
     
 - DNS:
