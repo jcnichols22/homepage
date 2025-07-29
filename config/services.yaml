@@ -58,6 +58,13 @@
           username: "{{HOMEPAGE_VAR_OMADA_NETWORK_USERNAME}}"
           password: "{{HOMEPAGE_VAR_OMADA_NETWORK_PASSWORD}}"
           site: The Hogs Head
+    - Myspeed:
+        icon: myspeed.svg
+        href: http://192.168.0.103:5216/
+        description: speed test
+        widget:
+          type: myspeed
+          url: http://192.168.0.103:5216/
 
     - Uptime Kuma:
         icon: uptime-kuma.svg
@@ -151,7 +158,7 @@
           username: "{{HOMEPAGE_VAR_QBITTORRENT_USERNAME}}"
           password: "{{HOMEPAGE_VAR_QBITTORRENT_PASSWORD}}"
           enableLeechProgress: true
-          enableDownloadProgress: true 
+          enableDownloadProgress: true
 
 - Remote Access:
     - Tailscale:
