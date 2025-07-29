@@ -45,14 +45,15 @@
             key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
     
 - DNS:
-    - Pi-Hole1:
+    - Pi-Hole:
         icon: pi-hole.svg
-        href: "{{HOMEPAGE_VAR_PIHOLE_URL_1}}"
+        href: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
         description: DNS
         widget:
             type: pihole
-            url: "{{HOMEPAGE_VAR_PIHOLE_URL_1}}"
-            key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY_1}}"
+            url: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+            version: 6
+            key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"
 
 - Network:
     # - UniFi:
