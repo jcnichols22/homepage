@@ -91,7 +91,7 @@
 - Remote Access:
     - Tailscale:
         icon: tailscale.svg
-        href: "{{HOMEPAGE_VAR_TAILSCALE_URL}}"
+        href: https://tailscale.com/admin/machines
         description: tailscale
 
 - Home Automation:
