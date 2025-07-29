@@ -20,23 +20,23 @@ layout:
   Hypervisor:
     header: true
     style: row
-    columns: 2
+    columns: 4
   Containers:
     header: true
     style: row
-    columns: 2
+    columns: 4
   DNS:
     header: true
     style: row
-    columns: 1
+    columns: 4
   Network:
     header: true
     style: row
-    columns: 3
+    columns: 4
   Remote Access:
     header: true
     style: row
-    columns: 1
+    columns: 4
   Storage:
     header: true
     style: row
@@ -48,7 +48,7 @@ layout:
   Home Automation:
     header: true
     style: row
-    columns: 1
+    columns: 4
   Other:
     header: true
     style: row
