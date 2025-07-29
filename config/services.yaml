@@ -47,15 +47,17 @@
             key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"
 
 - Network:
-    # - UniFi:
-    #     icon: unifi.svg
-    #     href: "{{HOMEPAGE_VAR_UNIFI_NETWORK_URL}}"
-    #     description: network
-    #     widget:
-    #         type: unifi
-    #         url: "{{HOMEPAGE_VAR_UNIFI_NETWORK_URL}}"
-    #         username:  "{{HOMEPAGE_VAR_UNIFI_NETWORK_USERNAME}}"
-    #         password:  "{{HOMEPAGE_VAR_UNIFI_NETWORK_PASSWORD}}"
+    - Omada:
+        icon: omada.svg
+        href: "{{HOMEPAGE_VAR_OMADA_NETWORK_URL}}"
+        description: network
+        widget:
+            type: omada
+            url: "{{HOMEPAGE_VAR_OMADA_NETWORK_URL}}"
+            username:  "{{HOMEPAGE_VAR_OMADA_NETWORK_USERNAME}}"
+            password:  "{{HOMEPAGE_VAR_OMADA_NETWORK_PASSWORD}}"
+            site: sitename
+            
     - Uptime Kuma:
         icon: uptime-kuma.svg
         href: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
