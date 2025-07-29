@@ -32,7 +32,7 @@
         widget:
             type: portainer
             url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
-            env: 1
+            env: 3
             key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
     
 - DNS:
