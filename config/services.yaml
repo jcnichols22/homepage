@@ -151,6 +151,7 @@
           username: "{{HOMEPAGE_VAR_QBITTORRENT_USERNAME}}"
           password: "{{HOMEPAGE_VAR_QBITTORRENT_PASSWORD}}"
           enableLeechProgress: true
+          enableDownloadProgress: true 
 
 - Remote Access:
     - Tailscale:
