@@ -45,6 +45,10 @@ layout:
     header: true
     style: row
     columns: 4
+  Arr:
+    header: true
+    style: row
+    columns: 5
   Home Automation:
     header: true
     style: row
