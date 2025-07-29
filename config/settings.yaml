@@ -2,7 +2,7 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/settings
 
-title: Techno Tim Homepage
+title: Ministry Mainframe
 
 background:
   image: https://cdnb.artstation.com/p/assets/images/images/006/897/659/large/mikael-gustafsson-wallpaper-mikael-gustafsson.jpg
@@ -20,23 +20,23 @@ layout:
   Hypervisor:
     header: true
     style: row
-    columns: 4
+    columns: 2
   Containers:
     header: true
     style: row
-    columns: 4
+    columns: 2
   DNS:
     header: true
     style: row
-    columns: 4
+    columns: 1
   Network:
     header: true
     style: row
-    columns: 4
+    columns: 3
   Remote Access:
     header: true
     style: row
-    columns: 4
+    columns: 1
   Storage:
     header: true
     style: row
@@ -48,7 +48,7 @@ layout:
   Home Automation:
     header: true
     style: row
-    columns: 4
+    columns: 1
   Other:
     header: true
     style: row

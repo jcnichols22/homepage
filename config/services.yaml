@@ -99,13 +99,13 @@
         icon: home-assistant.svg
         href: "{{HOMEPAGE_VAR_HOME_ASSISTANT_URL}}"
         description: home
-        widget:
-            type: homeassistant
-            url: "{{HOMEPAGE_VAR_HOME_ASSISTANT_URL}}"
-            key: "{{HOMEPAGE_VAR_HOME_ASSISTANT_API_KEY}}"
+        # widget:
+        #     type: homeassistant
+        #     url: "{{HOMEPAGE_VAR_HOME_ASSISTANT_URL}}"
+        #     key: "{{HOMEPAGE_VAR_HOME_ASSISTANT_API_KEY}}"
 - Other:
     - GitHub:
         icon: github.svg
-        href: https://github.com
+        href: https://github.com/jcnichols22
         description: source code
     
