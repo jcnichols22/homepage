@@ -24,6 +24,7 @@
             username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
             password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
             node: pve1
+
 - Containers:
     - Portainer:
         icon: portainer.svg
@@ -34,7 +35,7 @@
             url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
             env: 3
             key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
-    
+
 - DNS:
     - Pi-Hole:
         icon: pi-hole.svg
@@ -57,7 +58,7 @@
             username:  "{{HOMEPAGE_VAR_OMADA_NETWORK_USERNAME}}"
             password:  "{{HOMEPAGE_VAR_OMADA_NETWORK_PASSWORD}}"
             site: The Hogs Head
-            
+          
     - Uptime Kuma:
         icon: uptime-kuma.svg
         href: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
@@ -92,9 +93,6 @@
         icon: tailscale.svg
         href: "{{HOMEPAGE_VAR_TAILSCALE_URL}}"
         description: tailscale
-        widget:
-            type: tailscale
-            url: "{{HOMEPAGE_VAR_TAILSCALE_URL}}"
 
 - Home Automation:
     - Home Assistant:
