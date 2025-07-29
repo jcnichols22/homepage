@@ -9,21 +9,21 @@
         href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
         description: pve
         widget:
-            type: proxmox
-            url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-            username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-            password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
-            node: pve
+          type: proxmox
+          url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
+          username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
+          password: "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
+          node: pve
     - Proxmox:
         icon: proxmox.svg
         href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
         description: pve1
         widget:
-            type: proxmox
-            url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-            username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-            password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
-            node: pve1
+          type: proxmox
+          url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
+          username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
+          password: "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
+          node: pve1
 
 - Containers:
     - Portainer:
@@ -31,10 +31,10 @@
         href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
         description: docker
         widget:
-            type: portainer
-            url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
-            env: 3
-            key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
+          type: portainer
+          url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+          env: 3
+          key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
 
 - DNS:
     - Pi-Hole:
@@ -42,10 +42,10 @@
         href: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
         description: DNS
         widget:
-            type: pihole
-            url: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
-            version: 6
-            key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"
+          type: pihole
+          url: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+          version: 6
+          key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"
 
 - Network:
     - Omada:
@@ -53,21 +53,21 @@
         href: "{{HOMEPAGE_VAR_OMADA_NETWORK_URL}}"
         description: network
         widget:
-            type: omada
-            url: "{{HOMEPAGE_VAR_OMADA_NETWORK_URL}}"
-            username:  "{{HOMEPAGE_VAR_OMADA_NETWORK_USERNAME}}"
-            password:  "{{HOMEPAGE_VAR_OMADA_NETWORK_PASSWORD}}"
-            site: The Hogs Head
-          
+          type: omada
+          url: "{{HOMEPAGE_VAR_OMADA_NETWORK_URL}}"
+          username: "{{HOMEPAGE_VAR_OMADA_NETWORK_USERNAME}}"
+          password: "{{HOMEPAGE_VAR_OMADA_NETWORK_PASSWORD}}"
+          site: The Hogs Head
+
     - Uptime Kuma:
         icon: uptime-kuma.svg
         href: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
         description: internal
         widget:
-            type: uptimekuma
-            url: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
-            slug: homelab
-    
+          type: uptimekuma
+          url: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
+          slug: homelab
+
 # - Storage:
 #     - TrueNAS:
 #         icon: truenas.svg
@@ -84,25 +84,25 @@
         href: "{{HOMEPAGE_VAR_JELLYFIN_URL}}"
         description: media server
         widget:
-            type: jellyfin
-            url: "{{HOMEPAGE_VAR_JELLYFIN_URL}}"
-            key: "{{HOMEPAGE_VAR_JELLYFIN_API_TOKEN}}"
+          type: jellyfin
+          url: "{{HOMEPAGE_VAR_JELLYFIN_URL}}"
+          key: "{{HOMEPAGE_VAR_JELLYFIN_API_TOKEN}}"
     - Jellyseerr:
         icon: jellyseerr.svg
         href: "{{HOMEPAGE_VAR_JELLYSEERR_URL}}"
         description: media requests
         widget:
-            type: jellyseerr
-            url: "{{HOMEPAGE_VAR_JELLYSEERR_URL}}"
-            key: "{{HOMEPAGE_VAR_JELLYSEERR_API_KEY}}"
+          type: jellyseerr
+          url: "{{HOMEPAGE_VAR_JELLYSEERR_URL}}"
+          key: "{{HOMEPAGE_VAR_JELLYSEERR_API_KEY}}"
     - Automated Ripping Machine:
         icon: arm.svg
         href: "{{HOMEPAGE_VAR_ARM_URL}}"
         description: media ripping
         widget:
-            type: arm
-            url: "{{HOMEPAGE_VAR_ARM_URL}}"
-            key: "{{HOMEPAGE_VAR_ARM_API_KEY}}"
+          type: arm
+          url: "{{HOMEPAGE_VAR_ARM_URL}}"
+          key: "{{HOMEPAGE_VAR_ARM_API_KEY}}"
 
 - Arr:
     - Radarr:
@@ -110,48 +110,48 @@
         href: "{{HOMEPAGE_VAR_RADARR_URL}}"
         description: movies
         widget:
-            type: radarr
-            url: "{{HOMEPAGE_VAR_RADARR_URL}}"
-            key: "{{HOMEPAGE_VAR_RADARR_API_KEY}}"
+          type: radarr
+          url: "{{HOMEPAGE_VAR_RADARR_URL}}"
+          key: "{{HOMEPAGE_VAR_RADARR_API_KEY}}"
 
     - Sonarr:
         icon: sonarr.svg
         href: "{{HOMEPAGE_VAR_SONARR_URL}}"
         description: tv shows
         widget:
-            type: sonarr
-            url: "{{HOMEPAGE_VAR_SONARR_URL}}"
-            key: "{{HOMEPAGE_VAR_SONARR_API_KEY}}"
+          type: sonarr
+          url: "{{HOMEPAGE_VAR_SONARR_URL}}"
+          key: "{{HOMEPAGE_VAR_SONARR_API_KEY}}"
 
     - Bazarr:
         icon: bazarr.svg
         href: "{{HOMEPAGE_VAR_BAZARR_URL}}"
         description: subtitles
         widget:
-            type: bazarr
-            url: "{{HOMEPAGE_VAR_BAZARR_URL}}"
-            key: "{{HOMEPAGE_VAR_BAZARR_API_KEY}}"
+          type: bazarr
+          url: "{{HOMEPAGE_VAR_BAZARR_URL}}"
+          key: "{{HOMEPAGE_VAR_BAZARR_API_KEY}}"
 
     - Prowlarr:
         icon: prowlarr.svg
         href: "{{HOMEPAGE_VAR_PROWLARR_URL}}"
         description: indexers
         widget:
-            type: prowlarr
-            url: "{{HOMEPAGE_VAR_PROWLARR_URL}}"
-            key: "{{HOMEPAGE_VAR_PROWLARR_API_KEY}}"
+          type: prowlarr
+          url: "{{HOMEPAGE_VAR_PROWLARR_URL}}"
+          key: "{{HOMEPAGE_VAR_PROWLARR_API_KEY}}"
 
     - qBittorrent:
         icon: qbittorrent.svg
         href: "{{HOMEPAGE_VAR_QBITTORRENT_URL}}"
         description: torrent client
         widget:
-            type: qbittorrent
-            url: "{{HOMEPAGE_VAR_QBITTORRENT_URL}}"
-            key: "{{HOMEPAGE_VAR_QBITTORRENT_API_KEY}}"
-    
+          type: qbittorrent
+          url: "{{HOMEPAGE_VAR_QBITTORRENT_URL}}"
+          username: "{{HOMEPAGE_VAR_QBITTORRENT_USERNAME}}"
+          password: "{{HOMEPAGE_VAR_QBITTORRENT_PASSWORD}}"
+          enableLeechProgress: true
 
-    
 - Remote Access:
     - Tailscale:
         icon: tailscale.svg
@@ -172,4 +172,3 @@
         icon: github.svg
         href: https://github.com/jcnichols22
         description: source code
-    
