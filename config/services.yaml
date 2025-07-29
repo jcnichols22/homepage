@@ -99,10 +99,10 @@
         icon: arm.svg
         href: "{{HOMEPAGE_VAR_ARM_URL}}"
         description: media ripping
-        widget:
-          type: arm
-          url: "{{HOMEPAGE_VAR_ARM_URL}}"
-          key: "{{HOMEPAGE_VAR_ARM_API_KEY}}"
+        # widget:
+        #   type: arm
+        #   url: "{{HOMEPAGE_VAR_ARM_URL}}"
+        #   key: "{{HOMEPAGE_VAR_ARM_API_KEY}}"
 
 - Arr:
     - Radarr:
