@@ -26,10 +26,6 @@ layout:
     header: true
     style: row
     columns: 4
-  DNS:
-    header: true
-    style: row
-    columns: 4
   Network:
     header: true
     style: row
