@@ -149,7 +149,7 @@
           key: "{{HOMEPAGE_VAR_PROWLARR_API_KEY}}"
 
     - Tdarr:
-        icon: tdarr.svg
+        icon: tdarr.png
         href: "{{HOMEPAGE_VAR_TDARR_URL}}"
         description: media transcoding
         # widget:
