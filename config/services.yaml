@@ -148,6 +148,15 @@
           url: "{{HOMEPAGE_VAR_PROWLARR_URL}}"
           key: "{{HOMEPAGE_VAR_PROWLARR_API_KEY}}"
 
+      - Tdarr:
+        icon: tdarr.svg
+        href: "{{HOMEPAGE_VAR_TDARR_URL}}"
+        description: media transcoding
+        # widget:
+        #   type: tdarr
+        #   url: "{{HOMEPAGE_VAR_TDARR_URL}}"
+        #   key: "{{HOMEPAGE_VAR_TDARR_API_KEY}}"
+
     - qBittorrent:
         icon: qbittorrent.svg
         href: "{{HOMEPAGE_VAR_QBITTORRENT_URL}}"
